@@ -1,0 +1,66 @@
+.container {
+    max-width: 600px;  /* Adjusted to make the container smaller */
+    width: 80%;        /* Set to 80% for responsiveness */
+    margin: auto;
+    margin-top: 50px;
+    background: #fff;
+    color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 25px;
+    padding: 10px 15px; /* Reduced padding for compactness */
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 22px; /* Reduced font size for h2 */
+    font-weight: 500;
+    padding: 10px;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 50px; /* Reduced height of list items */
+    padding-left: 20px;
+    border: 1px solid #686868;
+    border-radius: 20px;
+    margin-bottom: 15px; /* Reduced margin to make the list more compact */
+    font-size: 16px; /* Smaller font size for list items */
+    cursor: pointer;
+    padding: 5px;
+}
+
+.container button {
+    margin: auto;
+    width: 200px; /* Reduced width of button */
+    height: 50px; /* Reduced height of button */
+    background: #121F52;
+    color: #fff;
+    font-size: 20px; /* Reduced font size */
+    font-weight: 500;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 14px; /* Smaller font size for index */
+}
+.title{
+    padding: 40px;
+}
+.container .correct{
+    background: #93ebc7;
+    border-color: #036327;
+}
+.container .wrong{
+    background: #ec0e0e;
+    background-color: #f7b0ba
+}
